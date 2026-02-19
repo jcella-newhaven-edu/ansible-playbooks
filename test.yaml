@@ -1,9 +1,5 @@
 ---
 - name: Simple ping test
-  hosts: all
-  gather_facts: no
-  become: true
-
   tasks:
     - name: Ping hosts
       ansible.builtin.ping:
