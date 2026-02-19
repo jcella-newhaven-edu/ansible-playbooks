@@ -1,5 +1,4 @@
 ---
 - name: Simple ping test
   tasks:
-    - name: Ping hosts
       ansible.builtin.ping:
